@@ -14,7 +14,7 @@ export class AuthenticationService {
 
   isUserLoggedIn() {
     let user = localStorage.getItem("token");
-    console.log(!(user === null));
+    // console.log(!(user === null));
     return !(user === null);
   }
 
